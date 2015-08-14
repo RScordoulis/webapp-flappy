@@ -61,7 +61,7 @@ function preload() {
 
 function create() {game.stage.setBackgroundColor('#3385D6');
     game.add.text(90,100,"Flying Fish!",
-    {font: "100px Ebrima", fill: "#D6D6FF"});
+        {font: "100px Ebrima", fill: "#D6D6FF"});
 
     var background = game.add.sprite(600, 160, "InitialF");
     background.width = 150;
@@ -84,7 +84,7 @@ function create() {game.stage.setBackgroundColor('#3385D6');
         .add(clickHandler);
 
     score = 0;
-labelScore = game.add.text(20,20,"0");
+    labelScore = game.add.text(20,20,"0");
 
 
     player = game.add.sprite(350,100, "Player1" );
@@ -137,7 +137,7 @@ function update() {
         });
     }
 
-    }
+}
 
 function changeScore(){
     score = score + 1;
@@ -208,3 +208,4 @@ jQuery.get("/score", function(scores){
             "</li>");
     }
 });
+
