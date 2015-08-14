@@ -46,7 +46,7 @@ function start () {
 }
 
 function preload() {
-    game.load.image("InitialF", "../assets/fish.PNG");
+    game.load.image("InitialF", "../assets/fish.png");
     game.load.image("additionalImg2", "../assets/b.png");
     game.load.image("Player1", "../assets/player.png");
     game.load.image("pipe","../assets/pipe_blue.png");
